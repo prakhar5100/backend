@@ -63,9 +63,6 @@ app.post("/api/signup", (req, res) => {
   });
 });
 
-app.get("/health", (req, res) => {)
-  res.json({ status: "ok" });
-});
 
 // Login
 app.post("/api/login", (req, res) => {
